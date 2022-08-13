@@ -1,0 +1,79 @@
+{
+	"id":	"371580B6-AB76-6C49-B1EE-8E53074F4E6F",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"op_js_webview_render",
+				"category":	{
+					"_data_version":	"upgrade",
+					"app_id":	"cli_9e52d4b850fa500e",
+					"app_name":	"Subscriptions",
+					"app_type":	"gadget",
+					"app_version":	"0.6.40",
+					"block_host":	"feishu",
+					"engine_type":	"Gadget",
+					"engine_version":	"2.21.2",
+					"env":	"online",
+					"env_type":	"online",
+					"identifier":	"cli_9e52d4b850fa500e",
+					"js_version":	"1.9.64.12",
+					"locale":	"en_US",
+					"mode":	"feed",
+					"monitor_domain":	"js.open_platform.gadget.webview_render",
+					"monitor_id":	"1-js.open_platform.gadget.webview_render-10000",
+					"monitor_message":	"webview_render_time",
+					"monitor_tags":	"",
+					"net_status":	"excellent",
+					"page_path":	"pages/account-detail/pc/index",
+					"region":	"feishu",
+					"tenant_id":	"747ae884b938131371f2c0dcd15b550c951a3938",
+					"trace_id":	"1-qcrikxpe-7igf6cfn",
+					"userId":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"user_id":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"version_type":	"current"
+				},
+				"metrics":	{
+					"app_launch_time":	1660295420689,
+					"create_virtual_tree_time":	4,
+					"diff_virtual_tree_time":	0,
+					"message_transfer_time":	7,
+					"monitor_code":	10000,
+					"monitor_level":	2,
+					"new_framework":	0,
+					"patch_time":	46,
+					"scene":	1000,
+					"time":	1660295453469,
+					"webview_render_time":	52
+				},
+				"extra":	{
+					"data":	"{\"app_launch_time\":1660295420689,\"scene\":1000,\"webview_render_time\":52,\"message_transfer_time\":7,\"create_virtual_tree_time\":4,\"diff_virtual_tree_time\":0,\"patch_time\":46,\"monitor_level\":2,\"monitor_code\":10000,\"time\":1660295453469,\"user_id\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"tenant_id\":\"747ae884b938131371f2c0dcd15b550c951a3938\",\"net_status\":\"excellent\",\"env_type\":\"online\",\"_data_version\":\"upgrade\",\"engine_version\":\"2.21.2\",\"engine_type\":\"Gadget\",\"app_id\":\"cli_9e52d4b850fa500e\",\"identifier\":\"cli_9e52d4b850fa500e\",\"version_type\":\"current\",\"mode\":\"feed\",\"app_name\":\"Subscriptions\",\"app_version\":\"0.6.40\",\"js_version\":\"1.9.64.12\",\"trace_id\":\"1-qcrikxpe-7igf6cfn\",\"page_path\":\"pages/account-detail/pc/index\",\"new_framework\":0,\"monitor_domain\":\"js.open_platform.gadget.webview_render\",\"monitor_id\":\"1-js.open_platform.gadget.webview_render-10000\",\"monitor_message\":\"webview_render_time\",\"monitor_tags\":\"\",\"block_host\":\"feishu\",\"app_type\":\"gadget\",\"userId\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"locale\":\"en_US\",\"env\":\"online\",\"region\":\"feishu\"}"
+				},
+				"timestamp":	1660295453469
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+2022/08/13-10:27:52.982 22c1b Reusing MANIFEST /home/lnn/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/13-10:27:52.982 22c1b Recovering log #56
+2022/08/13-10:27:52.992 22c1b Reusing old log /home/lnn/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000056.log 
+2022/08/13-11:01:43.854 59c09 Level-0 table #61: started
+2022/08/13-11:01:43.868 59c09 Level-0 table #61: 1497697 bytes OK
+2022/08/13-11:01:43.870 59c09 Delete type=0 #56

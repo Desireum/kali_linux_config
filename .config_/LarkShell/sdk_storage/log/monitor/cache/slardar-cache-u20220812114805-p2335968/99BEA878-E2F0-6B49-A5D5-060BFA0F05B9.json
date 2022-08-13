@@ -1,0 +1,49 @@
+{
+	"id":	"99BEA878-E2F0-6B49-A5D5-060BFA0F05B9",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"timestamp":	1660295461656,
+				"process_type":	"frame",
+				"event_name":	"page_load_metrics",
+				"category":	{
+					"business":	"miniprogram:miniprogram-fusion:cli_9e52d4b850fa500e"
+				},
+				"metrics":	{
+					"DCL":	192,
+					"FCP":	304,
+					"FP":	304,
+					"L":	192,
+					"LCP":	1998,
+					"type":	0
+				},
+				"extra":	{
+					"gen_process_id":	"2335929"
+				}
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

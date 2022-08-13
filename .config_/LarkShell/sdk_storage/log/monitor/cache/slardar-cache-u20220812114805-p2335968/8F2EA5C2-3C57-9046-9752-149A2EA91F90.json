@@ -1,0 +1,50 @@
+{
+	"id":	"8F2EA5C2-3C57-9046-9752-149A2EA91F90",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"chat_load_time",
+				"metrics":	{
+					"client_data_cost":	48,
+					"client_render_cost":	146,
+					"first_render":	103,
+					"latency":	158,
+					"latency_v2":	200,
+					"loading":	0,
+					"skeleton":	0,
+					"tag_missing_data":	0
+				},
+				"extra":	{
+					"chat_id":	"6801701087737823236",
+					"context_id":	"owhp0syg9z",
+					"feed_type":	"chat"
+				},
+				"timestamp":	1660295454990
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

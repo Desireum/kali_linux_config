@@ -1,0 +1,6 @@
+2022/08/12-13:33:20.688 b8ec3 Creating DB /home/lnn/.config/google-chrome/Default/IndexedDB/https_bz.zzzmh.cn_0.indexeddb.leveldb since it was missing.
+2022/08/12-13:33:20.690 b8ec3 Reusing MANIFEST /home/lnn/.config/google-chrome/Default/IndexedDB/https_bz.zzzmh.cn_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/12-13:55:44.613 bc2b5 Level-0 table #5: started
+2022/08/12-13:55:44.614 bc2b5 Level-0 table #5: 1527 bytes OK
+2022/08/12-13:55:44.614 bc2b5 Delete type=0 #3
+2022/08/12-13:55:44.615 bc2b5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2022/08/13-10:58:43.157 58968 Reusing MANIFEST /home/lnn/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/13-10:58:43.157 58968 Recovering log #3
+2022/08/13-10:58:43.158 58968 Reusing old log /home/lnn/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000003.log 
+2022/08/13-10:59:15.858 59c09 Level-0 table #5: started
+2022/08/13-10:59:15.860 59c09 Level-0 table #5: 60690 bytes OK
+2022/08/13-10:59:15.861 59c09 Delete type=0 #3
+2022/08/13-10:59:15.861 59c09 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

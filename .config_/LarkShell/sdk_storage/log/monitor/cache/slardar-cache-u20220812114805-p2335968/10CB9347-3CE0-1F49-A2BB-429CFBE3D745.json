@@ -1,0 +1,71 @@
+{
+	"id":	"10CB9347-3CE0-1F49-A2BB-429CFBE3D745",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"op_app_launch_result",
+				"category":	{
+					"_data_version":	"upgrade",
+					"app_id":	"cli_9e52d4b850fa500e",
+					"app_name":	"Subscriptions",
+					"app_type":	"gadget",
+					"app_version":	"0.6.40",
+					"block_host":	"feishu",
+					"engine_type":	"Gadget",
+					"engine_version":	"2.21.2",
+					"env":	"online",
+					"env_type":	"online",
+					"identifier":	"cli_9e52d4b850fa500e",
+					"js_version":	"1.9.64.12",
+					"locale":	"en_US",
+					"mode":	"feed",
+					"monitor_tags":	"",
+					"net_status":	"excellent",
+					"op_app_launch_timeline":	"{\"appLaunchStart\":0,\"onAppCreateStart\":0,\"onAppCreateEnd\":656,\"initContainerStart\":656,\"getSdkCodeStart\":656,\"getSdkCodeEnd\":660,\"execSdkCodeStart\":662,\"createWorkerContainerEnd\":665,\"createRenderContainerEnd\":721,\"initContainerEnd\":721,\"initAppStart\":721,\"getAppCodeStart\":722,\"getAppCodeEnd\":722,\"getAppLaunchDataStart\":722,\"getAppLaunchDataEnd\":725,\"execAppCodeStart\":726,\"execPageFrameJsEnd\":753,\"execAppServiceJsEnd\":813,\"initAppEnd\":816,\"startRoute\":816,\"createFirstPageStart\":834,\"sendRouteEvent\":834,\"execFirstPageFrameJsEnd\":839,\"execFirstPagePathFrameJsEnd\":844,\"onRenderSuccess\":909}",
+					"region":	"feishu",
+					"result_type":	"success",
+					"tenant_id":	"747ae884b938131371f2c0dcd15b550c951a3938",
+					"trace_id":	"1-qcrikxpe-7igf6cfn",
+					"userId":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"user_id":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"version_type":	"current"
+				},
+				"metrics":	{
+					"app_launch_time":	1660295420689,
+					"from_app_launch_start_to_page_ready":	910,
+					"launch_use_cache":	0,
+					"scene":	1000,
+					"time":	1660295452977
+				},
+				"extra":	{
+					"data":	"{\"app_launch_time\":1660295420689,\"scene\":1000,\"from_app_launch_start_to_page_ready\":910,\"launch_use_cache\":0,\"time\":1660295452977,\"user_id\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"tenant_id\":\"747ae884b938131371f2c0dcd15b550c951a3938\",\"net_status\":\"excellent\",\"env_type\":\"online\",\"_data_version\":\"upgrade\",\"engine_version\":\"2.21.2\",\"engine_type\":\"Gadget\",\"app_id\":\"cli_9e52d4b850fa500e\",\"identifier\":\"cli_9e52d4b850fa500e\",\"version_type\":\"current\",\"mode\":\"feed\",\"app_name\":\"Subscriptions\",\"app_version\":\"0.6.40\",\"js_version\":\"1.9.64.12\",\"trace_id\":\"1-qcrikxpe-7igf6cfn\",\"op_app_launch_timeline\":\"{\\\"appLaunchStart\\\":0,\\\"onAppCreateStart\\\":0,\\\"onAppCreateEnd\\\":656,\\\"initContainerStart\\\":656,\\\"getSdkCodeStart\\\":656,\\\"getSdkCodeEnd\\\":660,\\\"execSdkCodeStart\\\":662,\\\"createWorkerContainerEnd\\\":665,\\\"createRenderContainerEnd\\\":721,\\\"initContainerEnd\\\":721,\\\"initAppStart\\\":721,\\\"getAppCodeStart\\\":722,\\\"getAppCodeEnd\\\":722,\\\"getAppLaunchDataStart\\\":722,\\\"getAppLaunchDataEnd\\\":725,\\\"execAppCodeStart\\\":726,\\\"execPageFrameJsEnd\\\":753,\\\"execAppServiceJsEnd\\\":813,\\\"initAppEnd\\\":816,\\\"startRoute\\\":816,\\\"createFirstPageStart\\\":834,\\\"sendRouteEvent\\\":834,\\\"execFirstPageFrameJsEnd\\\":839,\\\"execFirstPagePathFrameJsEnd\\\":844,\\\"onRenderSuccess\\\":909}\",\"result_type\":\"success\",\"monitor_tags\":\"\",\"block_host\":\"feishu\",\"app_type\":\"gadget\",\"userId\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"locale\":\"en_US\",\"env\":\"online\",\"region\":\"feishu\"}"
+				},
+				"timestamp":	1660295452978
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

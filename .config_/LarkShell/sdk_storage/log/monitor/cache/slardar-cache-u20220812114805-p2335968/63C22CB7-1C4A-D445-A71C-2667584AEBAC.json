@@ -1,0 +1,53 @@
+{
+	"id":	"63C22CB7-1C4A-D445-A71C-2667584AEBAC",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"appreciable_loading_time",
+				"category":	{
+					"biz":	"1",
+					"event":	"image_load",
+					"need_net":	"1",
+					"net_status":	"2",
+					"scene":	"2",
+					"version":	"1"
+				},
+				"metrics":	{
+					"latency":	165
+				},
+				"extra":	{
+					"category":	"{\"from_type\":1,\"chat_type\":2,\"image_type\":0,\"is_crypto\":0,\"is_in_background\":0}",
+					"extra":	"{}",
+					"latency_detail":	"{\"costTime\":0,\"formatHeader\":\"FFD8FFE000104A464946000101000001\",\"resourceHash\":\"e83b38c\",\"showGifFirstFrame\":false,\"trace\":{\"spans\":[]},\"zoomImage\":false}",
+					"metric":	"{\"resource_content_length\":-1,\"resource_width\":692,\"resource_height\":1500,\"imageKey\":\"middle:img_v2_9765dddb-10f9-45bb-917d-3b16f1d971bg\",\"messageId\":\"7130655254734995460\",\"media_is_origin_type\":true}",
+					"since_latest_startup":	"38763.885009765625"
+				},
+				"timestamp":	1660295459049
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

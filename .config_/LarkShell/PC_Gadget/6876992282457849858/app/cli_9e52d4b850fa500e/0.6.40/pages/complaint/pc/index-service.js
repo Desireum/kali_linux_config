@@ -1,0 +1,11 @@
+;globPageRegistPath = 'custom-wrapper';require("custom-wrapper.js");
+;globPageRegistPath = '@native-mobile-components/button/index';require("@native-mobile-components/button/index.js");
+;globPageRegistPath = '@native-mobile-components/icon/index';require("@native-mobile-components/icon/index.js");
+;globPageRegistPath = '@native-mobile-components/dialog/index';require("@native-mobile-components/dialog/index.js");
+;globPageRegistPath = '@native-mobile-components/modal/index';require("@native-mobile-components/modal/index.js");
+;globPageRegistPath = '@native-mobile-components/overlay/index';require("@native-mobile-components/overlay/index.js");
+;globPageRegistPath = '@native-mobile-components/bold/index';require("@native-mobile-components/bold/index.js");
+;globPageRegistPath = '@native-mobile-components/fab/index';require("@native-mobile-components/fab/index.js");
+;globPageRegistPath = '@native-pc-components/icon/index';require("@native-pc-components/icon/index.js");
+;globPageRegistPath = '@native-pc-components/view/index';require("@native-pc-components/view/index.js");
+;globPageRegistPath = 'pages/complaint/pc/index';globPageRegistering = true;;require("pages/complaint/pc/index.js");

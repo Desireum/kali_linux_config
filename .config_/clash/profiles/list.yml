@@ -1,0 +1,16 @@
+files:
+  - url: ""
+    time: 1660117332902.yml
+    name: config.yaml
+    selected: []
+  - time: 1660117336324.yml
+    name: WD_Trojan
+    url: https://api.fuqing.ch/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WD_Trojan&url=https%3A%2F%2Ffuqing.ch%2Fmodules%2Fservers%2Ffuqingsocks%2Fosubscribe.php%3Fsid%3D6508%26token%3DLICNq5p5JYx3
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 685607910
+      download: 123207783214
+      total: 214748364800
+      expire: 1661097600
+index: 1

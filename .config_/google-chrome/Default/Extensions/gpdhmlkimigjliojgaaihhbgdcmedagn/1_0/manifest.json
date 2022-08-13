@@ -1,0 +1,32 @@
+{
+   "description": "Euphoria: By Sabrena Khadija",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjhOP6yLAuLf8ihJg49MKrDaU/DWcX9GLVQLO1pKMPeVC7CHwn0eLqtjcbhPZ7K/Fae+1e0C1/F228qFAhDUSSZPGcz812gEsIo/vyTR2Q/sEd8plFhQCCFQw+i28z63Lif5WyEYlw5snlCeHT15QKQrFAb5NoLY/x8A4agYDHthZ0j8RBvJ+1E0G/+bYUX4h3nEgfOKtlPhnTeLpqaGX966K22hJ9DsKx2annpsKH1Gc/P/x+8+NAeAnL4z3z3kjcx4qKyJ7nj2WpuDrvP+7iIQO7SFUj/sNuHKTIJPJ0ee+zDez3CbDQYsj0RxoKRu54sOn19YlzjAAQrTfhsFDBQIDAQAB",
+   "manifest_version": 2,
+   "name": "Euphoria",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 4, 57, 98 ],
+         "ntp_background": [ 0, 110, 200 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 6, 88, 152 ]
+      },
+      "images": {
+         "theme_ntp_background": "euphoria_1920x1080.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "left",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [ -1, 0.57, 0.9605 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

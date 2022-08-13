@@ -1,0 +1,6 @@
+2022/08/12-18:48:39.622 3015df Reusing MANIFEST /home/lnn/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/08/12-18:48:39.622 3015df Recovering log #64
+2022/08/12-18:48:39.622 3015df Reusing old log /home/lnn/.config/google-chrome/Default/Sync Data/LevelDB/000064.log 
+2022/08/12-20:39:00.538 8155a Level-0 table #68: started
+2022/08/12-20:39:00.540 8155a Level-0 table #68: 89999 bytes OK
+2022/08/12-20:39:00.541 8155a Delete type=0 #64

@@ -1,0 +1,6 @@
+2022/08/11-12:27:50.861 1018b5 Creating DB /home/lnn/.config/google-chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2022/08/11-12:27:50.862 1018b5 Reusing MANIFEST /home/lnn/.config/google-chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/11-12:44:50.977 120838 Level-0 table #5: started
+2022/08/11-12:44:50.978 120838 Level-0 table #5: 1203 bytes OK
+2022/08/11-12:44:50.979 120838 Delete type=0 #3
+2022/08/11-12:44:50.980 120838 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

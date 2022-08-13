@@ -1,0 +1,15 @@
+2022/08/12-18:48:39.968 3017b0 Reusing MANIFEST /home/lnn/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2022/08/12-18:48:39.968 3017b0 Recovering log #16
+2022/08/12-18:48:39.978 3017b0 Reusing old log /home/lnn/.config/google-chrome/Default/Extension State/000016.log 
+2022/08/12-20:31:07.070 3fc9ec Level-0 table #20: started
+2022/08/12-20:31:07.078 3fc9ec Level-0 table #20: 2248843 bytes OK
+2022/08/12-20:31:07.079 3fc9ec Delete type=0 #16
+2022/08/12-20:31:07.080 3fc9ec Compacting 4@0 + 1@1 files
+2022/08/12-20:31:07.096 3fc9ec Generated table #21@0: 6 keys, 10177 bytes
+2022/08/12-20:31:07.096 3fc9ec Compacted 4@0 + 1@1 files => 10177 bytes
+2022/08/12-20:31:07.097 3fc9ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/12-20:31:07.097 3fc9ec Delete type=2 #20
+2022/08/12-20:31:07.097 3fc9ec Delete type=2 #8
+2022/08/12-20:31:07.097 3fc9ec Delete type=2 #11
+2022/08/12-20:31:07.097 3fc9ec Delete type=2 #14
+2022/08/12-20:31:07.097 3fc9ec Delete type=2 #17

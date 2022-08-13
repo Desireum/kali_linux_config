@@ -1,0 +1,1 @@
+{"config_future_task":{"On Success Open & Other":{"enable_future_manager_log":false,"max_exec_time_micro_sec":60000000,"max_log_time_sec_offset":-86400,"head_task_size":65535,"tail_task_size":65535}}}

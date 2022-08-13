@@ -1,0 +1,72 @@
+{
+	"id":	"F304A756-529A-F646-AC80-FB56A20D4A7D",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"monitor_batch_report",
+				"category":	{
+					"_data_version":	"upgrade",
+					"app_id":	"cli_9e52d4b850fa500e",
+					"app_name":	"Subscriptions",
+					"app_type":	"gadget",
+					"app_version":	"0.6.40",
+					"batch":	"[\"{\\\"name\\\":\\\"op_api_invoke\\\",\\\"categories\\\":{\\\"app_type\\\":\\\"gadget\\\",\\\"api_name\\\":\\\"createRequestTask\\\",\\\"trace_downgrade\\\":false,\\\"monitor_domain\\\":\\\"client.open_platform.api.common\\\",\\\"monitor_message\\\":\\\"native_receive_invoke\\\",\\\"monitor_tags\\\":\\\"\\\"},\\\"metrics\\\":{\\\"callbackID\\\":46,\\\"params_count\\\":8,\\\"monitor_level\\\":2,\\\"monitor_code\\\":10002,\\\"time\\\":1660295454662}}\",\"{\\\"name\\\":\\\"op_api_invoke\\\",\\\"categories\\\":{\\\"api_name\\\":\\\"createRequestTask\\\",\\\"monitor_domain\\\":\\\"client.open_platform.api.common\\\",\\\"monitor_message\\\":\\\"native_invoke_start\\\",\\\"monitor_tags\\\":\\\"\\\"},\\\"metrics\\\":{\\\"monitor_level\\\":2,\\\"monitor_code\\\":10004,\\\"time\\\":1660295454663}}\",\"{\\\"name\\\":\\\"op_api_invoke\\\",\\\"categories\\\":{\\\"api_name\\\":\\\"createRequestTask\\\",\\\"errMsg\\\":\\\"createRequestTask:ok\\\",\\\"result_type\\\":\\\"success\\\",\\\"monitor_domain\\\":\\\"client.open_platform.api.common\\\",\\\"monitor_message\\\":\\\"native_invoke_result\\\",\\\"monitor_tags\\\":\\\"\\\"},\\\"metrics\\\":{\\\"monitor_level\\\":2,\\\"monitor_code\\\":10005,\\\"time\\\":1660295454663}}\",\"{\\\"name\\\":\\\"op_api_invoke\\\",\\\"categories\\\":{\\\"result_type\\\":\\\"success\\\",\\\"app_type\\\":\\\"gadget\\\",\\\"monitor_domain\\\":\\\"client.open_platform.api.common\\\",\\\"monitor_message\\\":\\\"native_callback_invoke\\\",\\\"monitor_tags\\\":\\\"\\\"},\\\"metrics\\\":{\\\"monitor_level\\\":2,\\\"monitor_code\\\":10003,\\\"time\\\":1660295454663}}\"]",
+					"block_host":	"feishu",
+					"engine_type":	"Gadget",
+					"engine_version":	"2.21.2",
+					"env":	"online",
+					"env_type":	"online",
+					"identifier":	"cli_9e52d4b850fa500e",
+					"js_version":	"1.9.64.12",
+					"locale":	"en_US",
+					"mode":	"feed",
+					"monitor_domain":	"monitor.base.batch",
+					"monitor_message":	"monitor_batch_code",
+					"monitor_tags":	"",
+					"net_status":	"excellent",
+					"region":	"feishu",
+					"tenant_id":	"747ae884b938131371f2c0dcd15b550c951a3938",
+					"trace_id":	"1-qcrikxpe-7igf6cfn-adwo3s8c",
+					"userId":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"user_id":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"version_type":	"current"
+				},
+				"metrics":	{
+					"app_launch_time":	1660295420689,
+					"monitor_code":	10000,
+					"monitor_level":	2,
+					"scene":	1000,
+					"time":	1660295454664
+				},
+				"extra":	{
+					"data":	"{\"app_launch_time\":1660295420689,\"scene\":1000,\"monitor_level\":2,\"monitor_code\":10000,\"time\":1660295454664,\"user_id\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"tenant_id\":\"747ae884b938131371f2c0dcd15b550c951a3938\",\"net_status\":\"excellent\",\"env_type\":\"online\",\"_data_version\":\"upgrade\",\"engine_version\":\"2.21.2\",\"engine_type\":\"Gadget\",\"app_id\":\"cli_9e52d4b850fa500e\",\"identifier\":\"cli_9e52d4b850fa500e\",\"version_type\":\"current\",\"mode\":\"feed\",\"app_name\":\"Subscriptions\",\"app_version\":\"0.6.40\",\"js_version\":\"1.9.64.12\",\"batch\":\"[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"op_api_invoke\\\\\\\",\\\\\\\"categories\\\\\\\":{\\\\\\\"app_type\\\\\\\":\\\\\\\"gadget\\\\\\\",\\\\\\\"api_name\\\\\\\":\\\\\\\"createRequestTask\\\\\\\",\\\\\\\"trace_downgrade\\\\\\\":false,\\\\\\\"monitor_domain\\\\\\\":\\\\\\\"client.open_platform.api.common\\\\\\\",\\\\\\\"monitor_message\\\\\\\":\\\\\\\"native_receive_invoke\\\\\\\",\\\\\\\"monitor_tags\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"metrics\\\\\\\":{\\\\\\\"callbackID\\\\\\\":46,\\\\\\\"params_count\\\\\\\":8,\\\\\\\"monitor_level\\\\\\\":2,\\\\\\\"monitor_code\\\\\\\":10002,\\\\\\\"time\\\\\\\":1660295454662}}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"op_api_invoke\\\\\\\",\\\\\\\"categories\\\\\\\":{\\\\\\\"api_name\\\\\\\":\\\\\\\"createRequestTask\\\\\\\",\\\\\\\"monitor_domain\\\\\\\":\\\\\\\"client.open_platform.api.common\\\\\\\",\\\\\\\"monitor_message\\\\\\\":\\\\\\\"native_invoke_start\\\\\\\",\\\\\\\"monitor_tags\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"metrics\\\\\\\":{\\\\\\\"monitor_level\\\\\\\":2,\\\\\\\"monitor_code\\\\\\\":10004,\\\\\\\"time\\\\\\\":1660295454663}}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"op_api_invoke\\\\\\\",\\\\\\\"categories\\\\\\\":{\\\\\\\"api_name\\\\\\\":\\\\\\\"createRequestTask\\\\\\\",\\\\\\\"errMsg\\\\\\\":\\\\\\\"createRequestTask:ok\\\\\\\",\\\\\\\"result_type\\\\\\\":\\\\\\\"success\\\\\\\",\\\\\\\"monitor_domain\\\\\\\":\\\\\\\"client.open_platform.api.common\\\\\\\",\\\\\\\"monitor_message\\\\\\\":\\\\\\\"native_invoke_result\\\\\\\",\\\\\\\"monitor_tags\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"metrics\\\\\\\":{\\\\\\\"monitor_level\\\\\\\":2,\\\\\\\"monitor_code\\\\\\\":10005,\\\\\\\"time\\\\\\\":1660295454663}}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"op_api_invoke\\\\\\\",\\\\\\\"categories\\\\\\\":{\\\\\\\"result_type\\\\\\\":\\\\\\\"success\\\\\\\",\\\\\\\"app_type\\\\\\\":\\\\\\\"gadget\\\\\\\",\\\\\\\"monitor_domain\\\\\\\":\\\\\\\"client.open_platform.api.common\\\\\\\",\\\\\\\"monitor_message\\\\\\\":\\\\\\\"native_callback_invoke\\\\\\\",\\\\\\\"monitor_tags\\\\\\\":\\\\\\\"\\\\\\\"},\\\\\\\"metrics\\\\\\\":{\\\\\\\"monitor_level\\\\\\\":2,\\\\\\\"monitor_code\\\\\\\":10003,\\\\\\\"time\\\\\\\":1660295454663}}\\\"]\",\"trace_id\":\"1-qcrikxpe-7igf6cfn-adwo3s8c\",\"monitor_domain\":\"monitor.base.batch\",\"monitor_message\":\"monitor_batch_code\",\"monitor_tags\":\"\",\"block_host\":\"feishu\",\"app_type\":\"gadget\",\"userId\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"locale\":\"en_US\",\"env\":\"online\",\"region\":\"feishu\"}"
+				},
+				"timestamp":	1660295454665
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

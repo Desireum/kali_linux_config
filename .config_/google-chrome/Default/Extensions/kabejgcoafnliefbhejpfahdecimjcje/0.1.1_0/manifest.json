@@ -1,0 +1,37 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "{23b8c629-e439-4cc6-a694-31f5dd918aff}"
+      }
+   },
+   "author": "Chuan Ji",
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "32": "icon-32.png",
+         "40": "icon-40.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Agentium"
+   },
+   "description": "Control the user agent identity reported by your browser.",
+   "homepage_url": "https://github.com/jichu4n/agentium",
+   "icons": {
+      "128": "icon-128.png",
+      "32": "icon-32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmhtNyYNQcFrgrgcv5HN++CUIKzJ9/SqnzS5PlTMOzth8MsqEiMYDxQWRlFWDfiuXFRsMCH6E4sx0YT83OWZLvkJ/Cn87SNYji5iow5fJzxaDouePNWDuLBv6cbiNQ+EOWfebGoULRyRVf477nFymY0xTrOH9sa9RypF05PC6eUSjLuHcQtY07VXQ0cz74S9ZJCHB7zMvyiu6CA+CvXVAV9LMRIoJIWLzpRJTlwrXIJKGgG3tDXBinmsZhm80qN7bkoA2HHo+g7AmpYD6FuKk/GvB4WS7jYf075YBeblAY+q3cduUs86LjPdupC346cEtEVtMPwlD1lzgGulBxX/VjQIDAQAB",
+   "manifest_version": 2,
+   "name": "Agentium: User agent switcher",
+   "options_page": "options.html",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "contextMenus", "storage", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ],
+   "short_name": "Agentium",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.1"
+}

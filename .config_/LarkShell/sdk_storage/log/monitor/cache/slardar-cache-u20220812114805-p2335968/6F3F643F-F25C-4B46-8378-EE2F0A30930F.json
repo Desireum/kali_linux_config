@@ -1,0 +1,57 @@
+{
+	"id":	"6F3F643F-F25C-4B46-8378-EE2F0A30930F",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"appreciable_loading_time",
+				"category":	{
+					"biz":	"1",
+					"event":	"image_load",
+					"need_net":	"1",
+					"net_status":	"1",
+					"scene":	"0",
+					"version":	"1"
+				},
+				"metrics":	{
+					"latency":	182
+				},
+				"extra":	{
+					"avatarKey":	"3e766d82-ab61-4a9c-b627-6948f119bfag",
+					"category":	"{\"from_type\":5,\"image_type\":3,\"chat_type\":0,\"is_in_background\":0}",
+					"entityId":	"6824891191125868546",
+					"extra":	"{}",
+					"latency_detail":	"{\"net_cost\":-1}",
+					"metric":	"{\"resource_content_length\":-1}",
+					"since_latest_startup":	"39041.885009765625",
+					"spanId":	"5255u70ouju1-103.1",
+					"traceId":	"5255u70ouju1"
+				},
+				"timestamp":	1660295459329
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"id":	"AF5D4D9F-24FC-4B43-BCB9-7A249534676A",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"mp_load_package_start",
+				"category":	{
+					"_data_version":	"upgrade",
+					"app_id":	"cli_9e52d4b850fa500e",
+					"app_type":	"gadget",
+					"engine_type":	"Gadget",
+					"engine_version":	"2.21.2",
+					"env":	"online",
+					"env_type":	"online",
+					"locale":	"en_US",
+					"monitor_tags":	"",
+					"net_status":	"excellent",
+					"pkg_md5":	"3a5a2d47c8a0b91a5bb05432332f9bc2",
+					"pkg_url":	"https://sf3-scmcdn-cn.feishucdn.com/obj/larkdeveloper/app/cli_9e52d4b850fa500e/current/gadget_pc_splits_zip/l6byj3d7_fdou35no9lf.zip",
+					"region":	"feishu",
+					"resource_type":	"zip",
+					"tenant_id":	"747ae884b938131371f2c0dcd15b550c951a3938",
+					"trace_id":	"1-qcrikxpe-7igf6cfn",
+					"userId":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"user_id":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c",
+					"version_type":	"current"
+				},
+				"metrics":	{
+					"app_launch_time":	1660295420689,
+					"subpackage_independent":	0,
+					"time":	1660295452469
+				},
+				"extra":	{
+					"data":	"{\"app_launch_time\":1660295420689,\"subpackage_independent\":0,\"time\":1660295452469,\"user_id\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"tenant_id\":\"747ae884b938131371f2c0dcd15b550c951a3938\",\"net_status\":\"excellent\",\"env_type\":\"online\",\"_data_version\":\"upgrade\",\"engine_version\":\"2.21.2\",\"app_id\":\"cli_9e52d4b850fa500e\",\"engine_type\":\"Gadget\",\"version_type\":\"current\",\"resource_type\":\"zip\",\"pkg_url\":\"https://sf3-scmcdn-cn.feishucdn.com/obj/larkdeveloper/app/cli_9e52d4b850fa500e/current/gadget_pc_splits_zip/l6byj3d7_fdou35no9lf.zip\",\"pkg_md5\":\"3a5a2d47c8a0b91a5bb05432332f9bc2\",\"trace_id\":\"1-qcrikxpe-7igf6cfn\",\"monitor_tags\":\"\",\"app_type\":\"gadget\",\"userId\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"locale\":\"en_US\",\"env\":\"online\",\"region\":\"feishu\"}"
+				},
+				"timestamp":	1660295452469
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

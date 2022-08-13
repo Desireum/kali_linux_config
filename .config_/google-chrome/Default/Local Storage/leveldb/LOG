@@ -1,0 +1,42 @@
+2022/08/13-10:07:51.565 3 Reusing MANIFEST /home/lnn/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/08/13-10:07:51.566 3 Recovering log #262
+2022/08/13-10:07:51.567 3 Reusing old log /home/lnn/.config/google-chrome/Default/Local Storage/leveldb/000262.log 
+2022/08/13-10:08:45.801 3 Level-0 table #266: started
+2022/08/13-10:08:45.804 3 Level-0 table #266: 40572 bytes OK
+2022/08/13-10:08:45.805 3 Delete type=0 #262
+2022/08/13-10:24:33.924 10 Level-0 table #268: started
+2022/08/13-10:24:33.960 10 Level-0 table #268: 24750 bytes OK
+2022/08/13-10:24:33.962 10 Delete type=0 #265
+2022/08/13-10:24:33.963 10 Compacting 4@0 + 1@1 files
+2022/08/13-10:24:33.973 10 Generated table #269@0: 1016 keys, 994068 bytes
+2022/08/13-10:24:33.973 10 Compacted 4@0 + 1@1 files => 994068 bytes
+2022/08/13-10:24:33.974 10 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/13-10:24:33.974 10 Delete type=2 #261
+2022/08/13-10:24:33.974 10 Delete type=2 #268
+2022/08/13-10:24:33.975 10 Delete type=2 #263
+2022/08/13-10:24:33.975 10 Delete type=2 #259
+2022/08/13-10:24:33.975 10 Delete type=2 #266
+2022/08/13-10:29:44.445 10 Level-0 table #271: started
+2022/08/13-10:29:44.447 10 Level-0 table #271: 25222 bytes OK
+2022/08/13-10:29:44.449 10 Delete type=0 #267
+2022/08/13-10:30:47.854 10 Level-0 table #273: started
+2022/08/13-10:30:47.856 10 Level-0 table #273: 43180 bytes OK
+2022/08/13-10:30:47.857 10 Delete type=0 #270
+2022/08/13-10:49:25.432 1c Level-0 table #275: started
+2022/08/13-10:49:25.434 1c Level-0 table #275: 56186 bytes OK
+2022/08/13-10:49:25.436 1c Delete type=0 #272
+2022/08/13-11:14:44.984 24 Level-0 table #277: started
+2022/08/13-11:14:44.986 24 Level-0 table #277: 57166 bytes OK
+2022/08/13-11:14:44.988 24 Delete type=0 #274
+2022/08/13-11:14:44.988 24 Compacting 4@0 + 1@1 files
+2022/08/13-11:14:45.004 24 Generated table #278@0: 1075 keys, 1003801 bytes
+2022/08/13-11:14:45.004 24 Compacted 4@0 + 1@1 files => 1003801 bytes
+2022/08/13-11:14:45.005 24 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/13-11:14:45.005 24 Delete type=2 #271
+2022/08/13-11:14:45.005 24 Delete type=2 #277
+2022/08/13-11:14:45.005 24 Delete type=2 #275
+2022/08/13-11:14:45.005 24 Delete type=2 #273
+2022/08/13-11:14:45.005 24 Delete type=2 #269
+2022/08/13-11:15:03.854 2e Level-0 table #280: started
+2022/08/13-11:15:03.856 2e Level-0 table #280: 56849 bytes OK
+2022/08/13-11:15:03.858 2e Delete type=0 #276

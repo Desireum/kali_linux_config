@@ -1,0 +1,54 @@
+{
+	"id":	"6491C163-A72E-2245-AD23-390A8C309732",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"op_workplace_event",
+				"category":	{
+					"app_id":	"cli_9f9f8825d53b900d",
+					"app_name":	"Help Desk",
+					"block_id":	"app-6851439825183260674",
+					"block_type_id":	"blk_5f15343874034002e8654ada",
+					"monitor_domain":	"client.open_platform.app_center.event",
+					"monitor_id":	"1-client.open_platform.app_center.event-10104",
+					"monitor_message":	"workplace_block_render_success",
+					"monitor_tags":	"",
+					"tenant_id":	"747ae884b938131371f2c0dcd15b550c951a3938",
+					"trace_id":	"1-tn2sq783",
+					"user_id":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c"
+				},
+				"metrics":	{
+					"duration":	1723,
+					"monitor_code":	10104,
+					"monitor_level":	2,
+					"time":	1660295468220
+				},
+				"timestamp":	1660295468227
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

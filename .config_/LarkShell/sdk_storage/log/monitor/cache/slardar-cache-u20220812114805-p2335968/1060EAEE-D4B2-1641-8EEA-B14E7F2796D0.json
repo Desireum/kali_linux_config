@@ -1,0 +1,53 @@
+{
+	"id":	"1060EAEE-D4B2-1641-8EEA-B14E7F2796D0",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"appreciable_loading_time",
+				"category":	{
+					"biz":	"1",
+					"event":	"enter_chat",
+					"need_net":	"1",
+					"net_status":	"2",
+					"scene":	"2",
+					"version":	"1"
+				},
+				"metrics":	{
+					"latency":	92
+				},
+				"extra":	{
+					"category":	"{\"source_type\":1,\"is_background\":0,\"chat_type\":2,\"is_crypto\":0,\"is_external\":1,\"is_edu\":false,\"is_meeting\":false}",
+					"extra":	"{}",
+					"latency_detail":	"{\"skeleton\":0,\"sdk_cost\":\"3\",\"client_data_cost\":20,\"client_render_cost\":69,\"first_render\":53,\"check_permission_cost\":\"2.40\",\"prepare_cost\":\"20.70\",\"active_cost\":\"0.10\",\"gc_info\":{},\"storeChangeCount\":{\"storeChangeCount\":{\"chat\":2}},\"firstScreenResizeTrack\":{\"HIT_CACHE_STRATEGY\":6,\"RESIZE_WITH_SCROLL_TO_ROW\":8},\"firstScreenResizeMsgType\":{\"4\":10,\"5\":4}}",
+					"metric":	"{\"feed_id\":\"7106798231989174300\",\"chatter_count\":128}",
+					"since_latest_startup":	"38600.885009765625"
+				},
+				"timestamp":	1660295458886
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="Content-Security-Policy" content=" font-src 'self' data:;script-src 'self' chrome-extension://* 'unsafe-inline'; frame-src file://* https://* http://* native-resource://* data: blob:; child-src 'none'; style-src 'unsafe-inline' 'self';connect-src 'self' ; worker-src file://* native-resource://*; media-src 'self' http://* https://* native-resource://*"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><style>:root {
+      --theme-color: #1F2329;
+      --token-bg-body: #FFFFFF;
+      --theme-bg-filter: #eff0f1;
+      --token-bg-float: #FFFFFF;
+      --token-icon-N1: #2B2F36;
+      --token-line-divider: rgba(31, 35, 41, 0.15);
+      --token-box-shadow: rgba(0, 0, 0, 0.25);
+    }
+    :root[data-tt-theme="dark"] {
+      --theme-color: #F0F0F0;
+      --token-bg-body: #1F1F1F;
+      --token-bg-float: #101010;
+      --theme-bg-filter: #373737;
+      --token-icon-N1: #E8E8E8;
+      --token-line-divider: rgba(240, 240, 240, 0.15);
+      --token-box-shadow: rgba(0, 0, 0, 0.28);
+    }
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+    #root {
+      opacity: 0;
+      overflow-y: auto;
+      padding: 8px;
+      height: 225px;
+      position: relative;
+      box-sizing: border-box;
+    }
+    #adit-toolbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+    }
+    .editor-kit-outer-container {
+      position: relative;
+      margin-top: 40px !important;
+      padding: 0 8px;
+      box-sizing: border-box;
+      overflow: hidden auto;
+    }
+    .editor-kit-outer-container.no-toolbar {
+      margin-top: 0 !important;
+    }
+    #adit-toolbar .adit-wrapper-container {
+      background-color: var(--token-bg-float);
+      border: 1px solid var(--token-line-divider);
+    }
+    #adit-toolbar .adit-wrapper-container .adit-plate {
+      background-color: var(--token-bg-float);
+      border: 1px solid var(--token-line-divider);
+      box-shadow: 0 6px 24px 0 var(--token-box-shadow);
+    }
+    #adit-toolbar .adit-wrapper-container .adit-wrapper {
+      background-color: var(--token-bg-float);
+    }
+    #adit-toolbar .adit-format-button {
+      color: var(--theme-color);
+    }
+    #adit-toolbar .adit-dropdown .adit-format-button {
+      border: 1px solid var(--token-line-divider);
+    }
+    #adit-toolbar .adit-dropdown-content {
+      color: var(--theme-color);
+      background-color: var(--token-bg-float);
+      border: 1px solid var(--token-line-divider);
+      box-shadow: 1px solid var(--token-box-shadow);
+    }
+    #adit-toolbar svg {
+      fill: var(--token-icon-N1);
+    }
+    #adit-toolbar .adit-format-button:hover:not([adit-disabled]) {
+      background-color: var(--theme-bg-filter);
+    }
+    #adit-toolbar .adit-dropdown button:hover {
+      background-color: var(--theme-bg-filter);
+    }
+    #adit-toolbar .adit-color-picker {
+      color: var(--theme-color);
+      background-color: var(--token-bg-float);
+    }
+    #root .editor-kit-container .blockquote {
+      color: var(--theme-color) !important;
+    }
+    #adit-toolbar .adit-group:not(:first-child)::before {
+      background-color: var(--token-line-divider);
+    }
+    #adit-toolbar .adit-color-picker {
+      border: 1px solid var(--token-line-divider);
+      box-shadow: 1px solid var(--token-box-shadow);
+    }
+    #adit-toolbar .adit-dropdown-content .menu-text:hover {
+      background-color: var(--theme-bg-filter);
+    }
+    #adit-toolbar .adit-format-align .menu-icon:hover {
+      background-color: var(--theme-bg-filter);
+    }
+    #adit-toolbar .adit-dropdown-box::before {
+      border-bottom-color: var(--token-line-divider);
+    }
+    #adit-toolbar .adit-dropdown-box::before {
+      border-bottom-color: var(--token-line-divider);
+    }
+    #adit-toolbar .adit-dropdown-pivot .adit-dropdown-locate.bottom > .adit-dropdown-box::after {
+      border-bottom-color: var(--token-line-divider);
+    }
+    #adit-toolbar .adit-dropdown-pivot .adit-dropdown-locate > .adit-dropdown-box {
+      background-color: var(--token-bg-float);
+    }
+    #root .editor-kit-outer-container .editor-kit-container[contenteditable=false] .image-container .image-wrapper.selected .point.n-icon-dragable {
+      display: none;
+    }</style><script defer="defer" src="main-3af3e17b.js"></script></head><body><div id="root"></div></body></html>

@@ -1,0 +1,18 @@
+2022/08/12-17:06:19.701 2276c2 Reusing MANIFEST /home/lnn/.config/google-chrome/Default/IndexedDB/https_uestc.feishu.cn_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/12-17:06:19.701 2276c2 Recovering log #3
+2022/08/12-17:06:19.705 2276c2 Reusing old log /home/lnn/.config/google-chrome/Default/IndexedDB/https_uestc.feishu.cn_0.indexeddb.leveldb/000003.log 
+2022/08/12-17:07:40.895 2325bd Level-0 table #5: started
+2022/08/12-17:07:40.904 2325bd Level-0 table #5: 947961 bytes OK
+2022/08/12-17:07:40.905 2325bd Delete type=0 #3
+2022/08/12-18:26:04.918 24f373 Level-0 table #7: started
+2022/08/12-18:26:04.925 24f373 Level-0 table #7: 647739 bytes OK
+2022/08/12-18:26:04.926 24f373 Delete type=0 #4
+2022/08/12-18:26:04.927 24f373 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/08/12-18:26:04.927 24f373 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x02\x02\x01$\x00c\x003\x000\x001\x001\x001\x003\x004\x00-\x005\x00d\x001\x000\x00-\x004\x00a\x003\x005\x00-\x00b\x005\x005\x005\x00-\x00d\x009\x00b\x001\x001\x00f\x009\x00f\x007\x00c\x00e\x00e' @ 27624 : 1
+2022/08/12-18:26:04.927 24f373 Compacting 1@1 + 1@2 files
+2022/08/12-18:26:04.934 24f373 Generated table #8@1: 4209 keys, 279773 bytes
+2022/08/12-18:26:04.934 24f373 Compacted 1@1 + 1@2 files => 279773 bytes
+2022/08/12-18:26:04.935 24f373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/12-18:26:04.935 24f373 Delete type=2 #5
+2022/08/12-18:26:04.935 24f373 Delete type=2 #7
+2022/08/12-18:26:04.935 24f373 Manual compaction at level-1 from '\x00\x09\x02\x02\x01$\x00c\x003\x000\x001\x001\x001\x003\x004\x00-\x005\x00d\x001\x000\x00-\x004\x00a\x003\x005\x00-\x00b\x005\x005\x005\x00-\x00d\x009\x00b\x001\x001\x00f\x009\x00f\x007\x00c\x00e\x00e' @ 27624 : 1 .. (end); will stop at (end)

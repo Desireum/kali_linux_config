@@ -1,0 +1,51 @@
+{
+	"id":	"DCD19998-A2A9-6D41-A16C-81E03A536C04",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"mp_load_domready",
+				"category":	{
+					"_data_version":	"upgrade",
+					"app_id":	"cli_9e52d4b850fa500e",
+					"mode":	"feed",
+					"monitor_tags":	"",
+					"tenant_id":	"747ae884b938131371f2c0dcd15b550c951a3938",
+					"trace_id":	"1-qcrikxpe-7igf6cfn",
+					"user_id":	"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c"
+				},
+				"metrics":	{
+					"from_app_launch_start_duration":	1310,
+					"time":	1660295452976
+				},
+				"extra":	{
+					"data":	"{\"from_app_launch_start_duration\":1310,\"time\":1660295452976,\"trace_id\":\"1-qcrikxpe-7igf6cfn\",\"monitor_tags\":\"\",\"app_id\":\"cli_9e52d4b850fa500e\",\"mode\":\"feed\",\"user_id\":\"89a53d8648732dc91e65d7e5bdf4ce3228a4c95c\",\"tenant_id\":\"747ae884b938131371f2c0dcd15b550c951a3938\",\"_data_version\":\"upgrade\"}"
+				},
+				"timestamp":	1660295452977
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+   "background": {
+      "scripts": [ "lib/browser-polyfill.js", "utils.js", "trilium_server_facade.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/32.png",
+      "default_popup": "popup/popup.html",
+      "default_title": "Trilium Web Clipper"
+   },
+   "commands": {
+      "saveScreenshot": {
+         "description": "Take a screenshot of the current page",
+         "suggested_key": {
+            "default": "Ctrl+Shift+E"
+         }
+      },
+      "saveSelection": {
+         "description": "Save the selected text into a note",
+         "suggested_key": {
+            "default": "Ctrl+Shift+S"
+         }
+      },
+      "saveWholePage": {
+         "description": "Save the current page",
+         "suggested_key": {
+            "default": "Alt+Shift+S"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "lib/browser-polyfill.js", "utils.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Save web clippings to Trilium Notes.",
+   "homepage_url": "https://github.com/zadam/trilium-web-clipper",
+   "icons": {
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "96": "icons/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjjve9PXEY+0h899B+qLRDn6j0i0oPDIl3GhI+sDngznxXQur26SOuC8hyRGVKPIDA5EUCpSQBzQhqa6IUXNgJvMcef6kSg0ynJjTTOJGKJgRsWBcsMDC+tgWaw96ZUZ5J60BOobpJjGsSnS39Ot89gnb/H0DzpdqKxFTklBRoAQe7BPOeZnQKtBXaAZMf12YZEQSTUzvWoZaXyC40qDXe50O7UTJ7K2c0BvwUvt1/MtXtdXT00r5ThdeXeBpWNA/zt1GUrR33NymNj9JNfW/8HSP7tlU0k05NXRt7LIoeVLrOU4NFNnAu2M9J5ikj+c4whStMJQ7k4YqZzcbHOtjrQIDAQAB",
+   "manifest_version": 2,
+   "name": "Trilium Web Clipper",
+   "options_ui": {
+      "page": "options/options.html"
+   },
+   "permissions": [ "activeTab", "tabs", "http://*/", "https://*/", "\u003Call_urls>", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.1"
+}

@@ -1,0 +1,54 @@
+{
+	"id":	"E0C106DF-8F0B-2448-AB26-5D78FAEDA124",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"appreciable_loading_time",
+				"category":	{
+					"biz":	"1",
+					"event":	"feed_load_more",
+					"need_net":	"1",
+					"net_status":	"1",
+					"page":	"feed_1",
+					"scene":	"1",
+					"version":	"1"
+				},
+				"metrics":	{
+					"latency":	-1
+				},
+				"extra":	{
+					"category":	"{}",
+					"extra":	"{}",
+					"latency_detail":	"{\"sdk_get_feed_cards\":3}",
+					"metric":	"{}",
+					"since_latest_startup":	"44338.885009765625"
+				},
+				"timestamp":	1660295464626
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

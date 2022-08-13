@@ -1,0 +1,58 @@
+{
+	"id":	"9D157FD7-8E67-A947-B123-734D49E97A65",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"larkw-avatar",
+				"category":	{
+					"app":	"Feishu",
+					"appVersion":	"5.9.18",
+					"env":	"production",
+					"lib":	"lark-widgets",
+					"loadedCount":	"1",
+					"logger":	"acelogger",
+					"module":	"other",
+					"platform":	"native",
+					"size":	"32",
+					"spanKind":	"0",
+					"spanName":	"larkw-avatar",
+					"userSource":	"other"
+				},
+				"metrics":	{
+					"larkw_avatar_fmp":	177
+				},
+				"extra":	{
+					"avatarKey":	"v2_9f6821a3-fb32-4ee7-8713-51c635e1dd8g",
+					"entityId":	"6777181399871914253",
+					"spanId":	"r22cko358jpv-57.1",
+					"traceId":	"r22cko358jpv"
+				},
+				"timestamp":	1660295455538
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}

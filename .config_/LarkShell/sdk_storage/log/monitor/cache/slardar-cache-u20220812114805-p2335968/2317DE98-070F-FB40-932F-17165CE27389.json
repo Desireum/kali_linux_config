@@ -1,0 +1,52 @@
+{
+	"id":	"2317DE98-070F-FB40-932F-17165CE27389",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"3153877725093075",
+		"user_id":	"6876992282457849858",
+		"app_version":	"5.9.18",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"process_type":	"monitor",
+				"event_name":	"op_monitor_event",
+				"category":	{
+					"_data_version":	"upgrade",
+					"monitor_domain":	"client.open_platform.gadget.pc_html_load",
+					"monitor_id":	"1-client.open_platform.gadget.pc_html_load-10000",
+					"monitor_message":	"html_loaded_time",
+					"monitor_tags":	""
+				},
+				"metrics":	{
+					"loaded_time":	194.89599609375,
+					"monitor_code":	10000,
+					"monitor_level":	2,
+					"time":	1660295459614,
+					"webview_create_time":	48.89599609375
+				},
+				"extra":	{
+					"data":	"{\"webview_create_time\":48.89599609375,\"loaded_time\":194.89599609375,\"monitor_level\":2,\"monitor_code\":10000,\"time\":1660295459614,\"monitor_domain\":\"client.open_platform.gadget.pc_html_load\",\"monitor_id\":\"1-client.open_platform.gadget.pc_html_load-10000\",\"monitor_message\":\"html_loaded_time\",\"monitor_tags\":\"\",\"_data_version\":\"upgrade\"}"
+				},
+				"timestamp":	1660295459614
+			}],
+		"header":	{
+			"device_id":	"3153877725093075",
+			"user_id":	"6876992282457849858",
+			"aid":	"666",
+			"app_version":	"5.9.18",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"5.16.0-kali7-amd64(Linux)",
+			"context":	{
+				"last_login_user_id":	"6876992282457849858",
+				"last_login_device_id":	"3153877725093075"
+			}
+		}
+	}
+}
